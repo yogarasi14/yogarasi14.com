@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My Portfolio</title> 
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+<body> 
+ 
+    <!-- Header Section --> 
+    <header> 
+        <div class="container"> 
+            <h1>Welcome to My Portfolio</h1> 
+            <nav> 
+                <ul> 
+                    <li><a href="#about-me">About Me</a></li> 
+                    <li><a href="#portfolio">Portfolio</a></li> 
+                    <li><a href="#contact">Contact</a></li> 
+                </ul> 
+            </nav> 
+        </div> 
+    </header> 
+ 
+    <!-- About Me Section --> 
+    <section id="about-me" class="section"> 
+        <div class="container"> 
+            <h2>About Me</h2> 
+            <p>Hello! My name is Eogarasi krishnan, and I'm a student pursuing a Bachelor of Information Technology (Hons) degree. I have a strong passion for technology, especially in the fields of web development, cloud computing, and network security. Throughout my academic journey, I have honed my skills in programming, problem-solving, and analytical thinking.</p>
+            <p>I graduated with a Diploma in Information Technology (Cybersecurity) from Polytechnic Mersing, where I developed an interest in IT and its potential to transform industries. In addition to my studies, I enjoy exploring new technologies, contributing to open-source projects, and expanding my knowledge through online courses and workshops.</p>
+            <p>Outside of academics, I enjoy reading, hiking, photography and traveling, which helps me maintain a balanced lifestyle and stay creative. I'm always looking for new opportunities to learn and grow, both personally and professionally.</p>
+
+        </div> 
+    </section> 
+ 
+    <!-- Portfolio Section --> 
+    <section id="portfolio" class="section"> 
+        <div class="container"> 
+            <h2>Portfolio assignment purpose</h2> 
+            <div class="portfolio-item"> 
+                
+                <h3>OBJECTIVES</h3> 
+                <p>I. Learn Cloud Deployment: Students will practice creating and deploying a personal portfolio website on a cloud platform, learning how to upload files and manage the website in the cloud. </p>
+                <p>II. Understand Website Security and Monitoring: Students will secure their website with HTTPS, and learn how to monitor its performance and ensure it works well across different devices.</p> 
+             
+        </div> 
+    </section> 
+ 
+    <!-- Contact Section --> 
+    <section id="contact" class="section"> 
+        <div class="container"> 
+            <h2>Contact Me</h2> 
+            <form action="/submit_form" method="POST"> 
+                <label for="name">Name:</label> 
+                <input type="text" id="name" name="name" required> 
+ 
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email" required> 
+ 
+                <label for="message">Message:</label> 
+                <textarea id="message" name="message" required></textarea> 
+ 
+                <button type="submit">Send Message</button> 
+            </form> 
+        </div> 
+    </section> 
+ 
+    <!-- Footer Section --> 
+    <footer> 
+        <div class="container"> 
+            <p>&copy; 2024 Eogarasi Krishnan. All rights reserved.</p> 
+        </div> 
+    </footer> 
+ 
+</body> 
+</html>
